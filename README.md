@@ -48,9 +48,13 @@ Replace the placeholder paths with your actual paths
 
 ### Command-Line Descriptions
    --source_path: The path to the source folder you want to synchronize.
+   
    --replica_path: The path to the folder where you want to create a replica.
+   
    --sync_interval: The interval in seconds between each synchronization.
-   --log_path: The path to the log file where synchronization logs will be saved.  
+   
+   --log_path: The path to the log file where synchronization logs will be saved.
+   
 
 NOTE: ".\sync.log" will write to the folder where its been executed. You can always use a path to write somewhere else. 
 
