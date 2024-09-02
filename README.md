@@ -21,9 +21,13 @@ File and Directory Listing: The script lists the contents of both the source and
    folder_sync/
    
    ├── main.py           # Main script
+   
    ├── sync.py           # Synchronization module
+   
    ├── logger.py         # Logging module
+   
    ├── cli.py            # Command-line arguments module
+   
    └── README.md         # Project documentation
 
 ## Requirements
