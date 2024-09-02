@@ -37,9 +37,10 @@ Make sure you have Python installed. This project uses standard Python libraries
 1) Clone the Repository to local machine.
 
    git clone https://github.com/noooanyway/folder-sync.git
+   
    cd folder_sync
 
-2) Run the Program
+3) Run the Program
 Execute the script with the following:
 
    python main.py --source_path "C:\path\to\source" --replica_path "C:\path\to\replica" --sync_interval 60 --log_path ".\sync.log"
