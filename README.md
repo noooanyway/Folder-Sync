@@ -40,12 +40,14 @@ Make sure you have Python installed. This project uses standard Python libraries
    
    cd folder_sync
 
-3) Run the Program
+2) Run the Program
 Execute the script with the following:
 
    python main.py --source_path "C:\path\to\source" --replica_path "C:\path\to\replica" --sync_interval 60 --log_path ".\sync.log"
 
 Replace the placeholder paths with your actual paths
+
+
 
 ### Command-Line Descriptions
    --source_path: The path to the source folder you want to synchronize.
@@ -63,6 +65,9 @@ NOTE: ".\sync.log" will write to the folder where its been executed. You can alw
 If you want to synchronize a folder at C:\Users\User\Desktop\source_folder with another folder at C:\Users\User\Desktop\replica_folder, and log the output to sync.log, you would use:
 
    python main.py --source_path "C:\Users\orest\Desktop\source_folder" --replica_path "C:\Users\orest\Desktop\replica_folder" --sync_interval 60 --log_path ".\sync.log"
+   
+### Important Notice:
+Please be aware that if you have one or both of the folders (source or replica) open in a file explorer window while the synchronization process is running, it might cause the program to stop working correctly. This is due to a feature in Windows called a "soft lock," which temporarily locks files and folders when they are being accessed or viewed. To avoid issues, ensure that both folders are closed during synchronization.
 
 ## Contact
 For further information or support, please contact orestmartyn00@gmail.com
